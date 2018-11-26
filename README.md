@@ -1,8 +1,8 @@
 Hack Western 5
 Created By:
-\nDhruv Bhavsar\n
-Aarsh Patel\n
-Oussama Saoudi\n
+Dhruv Bhavsar
+Aarsh Patel
+Oussama Saoudi
 Han Wu
 
 ## Inspiration
