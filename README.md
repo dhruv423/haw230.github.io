@@ -1,70 +1,22 @@
-# [Start Bootstrap - SB Admin](https://startbootstrap.com/template-overviews/sb-admin/)
+## Inspiration
+We believe that we should be in control of our money and not let money control us. Accordingly, we developed a web application that will help users take control of their finances.
 
-[SB Admin](http://startbootstrap.com/template-overviews/sb-admin/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## What it does
+Ependyo incorporates four financial tools into a single, handy platform to simplify the control of finances and to develop healthy financial habits. This web app features an income tax calculator that calculates salary after taxes according to the province or territory. There is a budgeting tool that allows users to visually see where their money goes to. Next, there is a compound interest calculator that visualizes the growth of compounding interest. Finally, there is a loan calculator which calculates how long an interest accumulating loan will be paid off. In addition, we built a chatbot that guides the user to better financial literacy. With these four tools and the chatbot, our users will be able to gain awareness in their financial decisions and make the best choice for them.
 
-## Preview
+## How we built it
+Our team collaborated using Git, using HTML, CSS, and JavaScript. We use the Bootstrap library to improve the website’s aesthetic, Chart.js to develop the plot visualizations, jQuery to simplify the JavaScript, and Microsoft Azure to implement the financial assistant.
 
-[![SB Admin Preview](https://startbootstrap.com/assets/img/templates/sb-admin.jpg)](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
+## Challenges we ran into
+We ran into some difficulties when exporting the IBM Watson chatbot to our web app. Uncertain of its viability, we ended up pivoting to the Microsoft Azure chatbot instead. When calculating income tax, the math was more difficult than it seemed as certain portions of our income are taxed at different rates. With multiple provinces/territories that tax at different rates at different brackets—with a varying number of brackets as well—implementing a polymorphic solution was challenging. However, we managed to develop a solution using a clever trick in storing the tax rates and brackets.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-sb-admin/)**
+## Accomplishments that we're proud of
+We are proud of the visualizations we developed to help the user extrapolate their financial situation.
+Exporting the chatbot to our web application was also a difficult at first but ultimately proved successful. 
+Developing the various algorithms to create each finance tool required some deep thought and lots of whiteboard work, but we are proud of what we have implemented.
 
-## Status
+## What we learned
+Through the development of Ependyo, our team sharpened our JavaScript skills, incorporating various libraries and API’s along the way. Additionally, we realized the importance of intuitive and sleek design in presenting data to best serve the customer. Design has been an important aspect of visualizing data as graphs.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-sb-admin/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-sb-admin)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-sb-admin?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/sb-admin/)
-* Install via npm: `npm i startbootstrap-sb-admin`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-sb-admin.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-sb-admin)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-sb-admin/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/gh-pages/LICENSE) license.
+## What's next for Ependyo
+There are more tools Ependyo can incorporate to fully inform users of their financial decisions such as incorporating a stocks and investing tool to observe and manage stocks, cryptocurrency, and other types of investment.
