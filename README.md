@@ -1,9 +1,9 @@
 Hack Western 5
 Created By:
-Dhruv Bhavsar
+Dhruv Bhavsar,
+Oussama Saoudi,
+Han Wu,
 Aarsh Patel
-Oussama Saoudi
-Han Wu
 
 ## Inspiration
 We believe that we should be in control of our money and not let money control us. Accordingly, we developed a web application that will help users take control of their finances.
